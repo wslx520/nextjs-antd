@@ -1,6 +1,4 @@
 // next.config.js
-const withCSS = require('@zeit/next-css');
-const withSASS = require('@zeit/next-sass');
 const withOptimizedImages = require('next-optimized-images');
 // module.exports = withOptimizedImages(withCSS({
 //     cssModules: true
@@ -9,7 +7,6 @@ const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development' || process.env.NODE_ENV === undefined;
 const isProd = process.env.NODE_ENV === 'production'
-const isTest = process.env.NODE_ENV === 'test';
 console.log('isProd' , isProd);
 console.log(process.env.NODE_ENV);
 
@@ -66,5 +63,4 @@ const config = Object.assign({
     }
 }, otherConfig);
 
-// module.exports = withCSS(withSASS(withOptimizedImages(config)));
 module.exports = withOptimizedImages(config);

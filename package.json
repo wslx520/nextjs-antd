@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "set NODE_ENV=test && npm run build",
-    "dev": "node server.js",
+    "dev": "next --port 3333",
     "start": "next start --port 3333",
     "build": "next build && next export"
   },

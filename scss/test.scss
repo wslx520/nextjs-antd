@@ -1,5 +1,11 @@
 $color: #606060;
 @import "sub";
+.fullSlide {
+  .slide-block {
+    height: 300px;
+    background-color: #aaa;
+  }
+}
 body {
   #tabfirst-ntb {
     a {

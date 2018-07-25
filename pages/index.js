@@ -19,9 +19,9 @@ class Index extends React.Component {
             <Link href="/other">To other</Link>
             <div className="fullSlide">
                 <Carousel ref="carousel">
-                    <div key={1}>1</div>
-                    <div key={2}>2</div>
-                    <div key={3}>3</div>
+                    <div key={1} className={'slide-block'}>1</div>
+                    <div key={2} className={'slide-block'}>2</div>
+                    <div key={3} className={'slide-block'}>3</div>
                 </Carousel>
                 <i className="bg-ico"></i>
 

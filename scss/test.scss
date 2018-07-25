@@ -1,0 +1,15 @@
+$color: #606060;
+@import "sub";
+body {
+  #tabfirst-ntb {
+    a {
+      color: $color;
+    }
+  }
+}
+i {
+  &.bg-ico {
+    background-image: url(bg-ico.png);
+    background-repeat: no-repeat;
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "tb-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=test && npm run build",
+    "dev": "node server.js",
+    "start": "next start --port 3333",
+    "build": "next build && next export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.7.0",
+    "axios": "^0.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "classnames": "^2.2.6",
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.3",
+    "next": "^6.1.1",
+    "nprogress": "^0.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-transition-group": "^2.4.0",
+    "store": "^2.0.12"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "@zeit/next-sass": "^0.2.0",
+    "babel-plugin-import": "^1.8.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "extracted-loader": "^1.0.7",
+    "h2o2": "^8.1.2",
+    "hapi": "^17.5.2",
+    "next-optimized-images": "^1.4.1",
+    "node-sass": "^4.9.2"
+  }
+}
